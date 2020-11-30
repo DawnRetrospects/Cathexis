@@ -1,1 +1,9 @@
-<h6>Hello World!</h6>
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block head %} {{ super() }} {% endblock %}
+
+{% block content %}
+    <h6>Hello World!</h6>
+{% endblock %}
